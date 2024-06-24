@@ -20,7 +20,9 @@ const Footer = () => (
           <ul className="list-unstyled">
             <li>
               <FontAwesomeIcon icon={faEnvelope} fixedWidth />
-              <a href="mailto:anthony.munizbueno@gmail.com">Email</a>
+              <a href="mailto:anthony.munizbueno@gmail.com">
+                anthony.munizbueno@gmail.com
+              </a>
             </li>
             <li>
               <FontAwesomeIcon icon={faGithub} fixedWidth />
