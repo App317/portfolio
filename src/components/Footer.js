@@ -20,15 +20,17 @@ const Footer = () => (
           <ul className="list-unstyled">
             <li>
               <FontAwesomeIcon icon={faEnvelope} fixedWidth />
-              <a href="#!">Email</a>
+              <a href="mailto:anthony.munizbueno@gmail.com">Email</a>
             </li>
             <li>
               <FontAwesomeIcon icon={faGithub} fixedWidth />
-              <a href="#!">GitHub</a>
+              <a href="https://github.com/App317">GitHub</a>
             </li>
             <li>
               <FontAwesomeIcon icon={faLinkedin} fixedWidth />
-              <a href="#!">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/anthony-muniz-bueno-644648215/">
+                LinkedIn
+              </a>
             </li>
           </ul>
         </div>
@@ -37,7 +39,7 @@ const Footer = () => (
           <ul className="list-unstyled">
             <li>
               <FontAwesomeIcon icon={faGithub} fixedWidth />
-              <a href="#!">Judy Gab's GitHub</a>
+              <a href="https://github.com/judygab">Judy Gab's GitHub</a>
             </li>
           </ul>
         </div>
