@@ -43,7 +43,7 @@ const Projects = () => {
     },
     {
       title: 'Future project to be made...',
-      description: 'Design & Development',
+      description: '',
       imgUrl: mysteryImg,
     },
   ];
