@@ -77,7 +77,12 @@ const Banner = () => {
                     library in all my projects, and continue to learn new and
                     innovative ways to become a better programmer.
                   </p>
-                  <button onClick={() => console.log('connect')}>
+                  <button
+                    onClick={() =>
+                      (window.location.href =
+                        'mailto:anthony.munizbueno@gmail.com')
+                    }
+                  >
                     Let's Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>

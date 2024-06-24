@@ -1,43 +1,50 @@
 import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
+import triviaImg from '../assets/img/trivia-app.jpg';
 import pokeImg from '../assets/img/pokedex.jpg';
 import foodRecipeImg from '../assets/img/foodRecipes.jpg';
 import restaurantImg from '../assets/img/restaurantMockup.jpg';
 import todoListImg from '../assets/img/todoList.jpg';
+import mysteryImg from '../assets/img/mystery.jpg';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 
 const Projects = () => {
   const projects = [
     {
+      title: 'Trivia',
+      description:
+        'A trivia app where you can quiz yourself on various categories!',
+      imgUrl: triviaImg,
+      href: 'https://app317-trivia-app.netlify.app/',
+    },
+    {
       title: 'Pokèdex',
       description: 'Browse through all the Pokèmon with use of PokèAPI!',
       imgUrl: pokeImg,
+      href: 'https://app317.github.io/pokedex',
     },
     {
       title: 'Food Recipes',
       description:
         'Search through all kinds of recipes from anything in your pantry!',
       imgUrl: foodRecipeImg,
-    },
-    {
-      title: 'Restaurant Mockup',
-      description: 'A mockup website layout for a fake restaurant.',
-      imgUrl: restaurantImg,
+      href: 'https://app317.github.io/food_recipes',
     },
     {
       title: 'To-Do List',
       description: 'A simple list to manage your tasks.',
       imgUrl: todoListImg,
+      href: 'https://app317.github.io/todolist',
     },
     {
-      title: 'Interactive Image Gallery',
-      description: 'A gallery of images that follows your mouse in a trail!',
-      imgUrl: pokeImg,
+      title: 'Restaurant Mockup',
+      description: 'WORK IN PROGRESS',
+      imgUrl: restaurantImg,
     },
     {
-      title: 'Business Startup',
+      title: 'Future project to be made...',
       description: 'Design & Development',
-      imgUrl: pokeImg,
+      imgUrl: mysteryImg,
     },
   ];
 
@@ -76,8 +83,12 @@ const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">More to be made...</Tab.Pane>
-                <Tab.Pane eventKey="third">More to be made...</Tab.Pane>
+                <Tab.Pane eventKey="second" className="tab-in-progress">
+                  More to be made...
+                </Tab.Pane>
+                <Tab.Pane eventKey="third" className="tab-in-progress">
+                  More to be made...
+                </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>
