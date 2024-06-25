@@ -15,7 +15,7 @@ const Projects = () => {
       description:
         'A trivia app where you can quiz yourself on various categories!',
       imgUrl: triviaImg,
-      href: 'https://app317-trivia-app.netlify.app/',
+      href: 'https://anthonymb-trivia-app.netlify.app',
     },
     {
       title: 'Pokèdex',
