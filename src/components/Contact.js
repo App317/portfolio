@@ -12,7 +12,7 @@ const Contact = () => {
           <Col md={3}>
             <a
               className="btn"
-              href="Resume.pdf"
+              href="Front_End_Developer_Resume.pdf"
               download="Anthony_Muniz-Bueno_Resume.pdf"
             >
               Resume PDF Download
@@ -21,7 +21,7 @@ const Contact = () => {
           <Col md={3}>
             <a
               className="btn "
-              href="Resume.docx"
+              href="Front_End_Developer_Resume.docx"
               download="Anthony_Muniz-Bueno_Resume.docx"
             >
               Resume DOCX Download
